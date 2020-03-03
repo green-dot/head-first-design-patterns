@@ -7,6 +7,7 @@
 
 // It's guaranteed that a unique mapping will always exist.
 
-var freqAlphabets = function(s) {
-  return ''
+module.exports = function (s) {
+  return '';
 };
+
