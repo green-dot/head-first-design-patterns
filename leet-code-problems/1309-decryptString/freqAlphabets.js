@@ -34,7 +34,7 @@ function parseCharacterNumbers (s){
 }
 
 function transformNumbers2Chars(numbers){
-  const startingIndex = 1; // '1' => 'a'
+  const startingIndex = 1;   // '1' => 'a'
   const characterCodeOffset = 'a'.charCodeAt(0) - startingIndex;
   return numbers.map(num => String.fromCharCode(Number(num)+characterCodeOffset))
 }
