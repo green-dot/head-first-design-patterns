@@ -1,7 +1,7 @@
 class Duck {
   constructor(){
-    let flyBehavour;
-    let quackBehaviour;
+    let flyBehavour; // object that impliments fly
+    let quackBehaviour; // object that impliments quack
   }
 
   display() {}
