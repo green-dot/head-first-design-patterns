@@ -9,7 +9,7 @@ class Duck {
   }
 
   performQuack() {
-    this.quackBehaviour.quack()
+    this.quackBehaviour.quack();
   }
 }
 
